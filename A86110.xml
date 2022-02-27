@@ -1,0 +1,370 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A fevv collections for Irelands souldiers.</title>
+            <author>Haward, Lazarus.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1647</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 37 KB of XML-encoded text transcribed from 11 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2012-10">2012-10 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A86110</idno>
+            <idno type="STC">Wing H1166</idno>
+            <idno type="STC">Thomason E375_19</idno>
+            <idno type="STC">ESTC R201351</idno>
+            <idno type="EEBO-CITATION">99861875</idno>
+            <idno type="PROQUEST">99861875</idno>
+            <idno type="VID">114020</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A86110)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 114020)</note>
+            <note>Images scanned from microfilm: (Thomason Tracts ; 60:E375[19])</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A fevv collections for Irelands souldiers.</title>
+                  <author>Haward, Lazarus.</author>
+               </titleStmt>
+               <extent>[4], 16 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed for John Wright at the Kings Head in the Old Bayley.,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1646. [i.e. 1647]</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>By Lazarus Haward, who has signed the dedication.</note>
+                  <note>Wing has publication year 1646[7].</note>
+                  <note>Annotation on Thomason copy: "feb: 12th".</note>
+                  <note>Reproduction of the original in the British Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Soldiers --  Ireland --  Conduct of life --  Early works to 1800.</term>
+               <term>Armed forces --  Prayer-books and devotions --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2008-08</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2008-10</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2011-09</date>
+            <label>Olivia Bottum</label>Sampled and proofread</change>
+         <change>
+            <date>2011-09</date>
+            <label>Olivia Bottum</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2012-05</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:114020:1" rendition="simple:additions"/>
+            <p>A FEVV COLLECTIONS FOR IRELANDS Souldiers.</p>
+            <p>
+               <hi>LONDON,</hi> Printed for <hi>John Wright</hi> at the <hi>Kings Head</hi> in the <hi>Old-Bayley.</hi> 1646.</p>
+         </div>
+         <div type="dedication">
+            <pb facs="tcp:114020:2"/>
+            <pb facs="tcp:114020:2"/>
+            <head>TO THE RIGHT Honourable <hi>Phillip</hi> Lord <hi>Lyſle,</hi> Lord Leivetenant Generall of <hi>IRELAND.</hi>
+            </head>
+            <opener>
+               <salute>(My Lord)</salute>
+            </opener>
+            <p>
+               <seg rend="decorInit">T</seg>He favours I received from you Honoura<g ref="char:EOLhyphen"/>ble Father in my firſt journey to Ireland, and now ſutable to your Lordſhipps Fa<g ref="char:EOLhyphen"/>thers Will ſeconded; hath emboldened me to offer this poore tribute: not to teach your uncontradictable knowledge, but humbly deſire it may kiſſe your hands as a ſacrifice offered from your ſer<g ref="char:EOLhyphen"/>vant, or as a weakeneſſe that ſtands in neede of your protection, therefore I humbly crave it may not bee offenſive if for one houre or leſſe I begge you from your more ſerious thoughts, to vouchſafe the reading of theſe few lines; The profeſſion of a Souldier is neceſ<g ref="char:EOLhyphen"/>ſary, his ends glorious, and his quality honorable; But when I come to thinke of a minde befitting a Souldier, I can only ſay this; that how curious, coſtly, plaine, or deformed the Cabinet be, yet muſt it neceſſarily bee filled with all manner of vertues: vice muſt be as that deadly foe with whom he will never make truce, or e<g ref="char:EOLhyphen"/>ver Capitulate, and the bulwarke to withſtand his aſ<g ref="char:EOLhyphen"/>ſaults muſt be Faith and a good Conſcience, under the guard of theſe he muſt finde his ſecurity: A Souldier
+<pb facs="tcp:114020:3"/>muſt bee valiant, (for his proper vertue) vali<g ref="char:EOLhyphen"/>ant to conquer his Countreys foes: and valiant to o<g ref="char:EOLhyphen"/>verthrow is owne paſſions: to which purpoſe I pre<g ref="char:EOLhyphen"/>ſume this manner of writing: Since then (my Lord) you are by the Honorable Houſes of Parliament made Lord Leivetenant Generall of the Kingdome of Ire<g ref="char:EOLhyphen"/>land for the reducing of thoſe Apoſtated miſcreants, and that on you depends all the Millitary actions of that Kingdome; I cannot be perſwaded but any thing which comes cloathed with this title being nothing but truth, ſhall finde from you a noble reſpect: Be it then your Lordſhipps noble favour to ſave this poore Epiſtle from the wrack of envie, and when it ſhall arrive at your preſence, bee pleaſed to heare what it delivers: And I doubt not, but though it can bring little to Aug<g ref="char:EOLhyphen"/>ment your knowledge, yet it may leave ſomething wor<g ref="char:EOLhyphen"/>thy to be retained in your beſt memory: and howſoe<g ref="char:EOLhyphen"/>ver the weakeneſſe of words may deface it, yet your Lordſhip ſhall finde it hath an honeſt aime, and points at the way to proſper; it being the conſtant prayer of my ſoule that you may reape the fruits of ſo honorable and gallant an undertaking, ſo that God being thereby glorified, your ſoule may be everlaſtingly comforted: For my ſhare of which ſervice I am</p>
+            <closer>
+               <signed>Your Honours devoted Souldier by word and deede, to the hazard of his life LAZARVS HAVVARD</signed>
+            </closer>
+         </div>
+      </front>
+      <body>
+         <div type="text">
+            <pb facs="tcp:114020:3"/>
+            <head>A Few collections for IRELAND.</head>
+            <p>A <seg rend="decorInit">G</seg>Ood heart hath learned to frame it ſelfe to all con<g ref="char:EOLhyphen"/>ditions, and can change eſtates without change of diſpoſition, riſing &amp; falling according to occaſions</p>
+            <p>DIſtruſt not God who is judge of all cauſes and men, for hee bringeth nothing to paſſe but that which is moſt righteous and moſt for his glory.</p>
+            <p>VAine men goe forth in a morning weake and unarmed to encounter with principalities and powers: but hee that tru<g ref="char:EOLhyphen"/>ly knowes Chriſt comes not into the field without this cap<g ref="char:EOLhyphen"/>taine.</p>
+            <p>AFfliction upon a nation is either to reforme them or deſtroy them: when Iſrael worſhipped ſtrange gods warre was in their gates.</p>
+            <p>NO people is ſaved for their righteouſneſſe ſake, nor choſe a people becauſe they were righteous: but to make them righteous, yea the righteous ſhall be more righteous though the wicked grow worſe and worſe.</p>
+            <p>CArnall hearts are carried away with preſumption of their owne abilities, and not finding matches to themſelves in outward appearance inſult over the impotency of inferi<g ref="char:EOLhyphen"/>ours.</p>
+            <p>EUen for our ſinnes of Hypocriſie and Idolatry we have beene puniſhed by the ſword of Atheiſt &amp; Idolater, yea one proud man correcteth another.</p>
+            <p>YE we could ſay with <hi>Abraham</hi> and <hi>Lot,</hi> let there bee no ſtrife betweene me and thee, and ſo both joyne together againſt the common enemy, we might expect a good ſucceſſe.</p>
+            <pb n="2" facs="tcp:114020:4"/>
+            <p> OPpreſſion and wrong upon even termes are not ſo hainous unto God as thoſe that are upon manifeſt diſadvantage, in one there is an hazard of returne in the other there is a ty<g ref="char:EOLhyphen"/>rannous Inſultation.</p>
+            <p>VNprovoked and envious onſets upon the backs of the Iſrael<g ref="char:EOLhyphen"/>lites by <hi>Amaleck</hi> God tooke to heart, every cowardly and cruell attempt upon an impotent enemie ſticks in the ſto<g ref="char:EOLhyphen"/>mack of the Almighty.</p>
+            <p>REmember ſaith <hi>Moſes</hi> how <hi>Amelecke</hi> met thee by the way and ſmote the hindermoſt of you, all that were feeble behinde thee, when thou wert faint and wearie.</p>
+            <p>PUniſhment upon a nation was never removed till the ſinne was either puniſhed or taken away: there can be no end of warre where ſinne is cheriſhed in the ſeate of juſtice.</p>
+            <p>ITs not the name of peace or warre, but the circumſtances and condition of either that ſhould make a man embrace the one or eſchew the other.</p>
+            <p>KIngs that uphold Gods Kingdome, God upholds theirs: if they will have God to bee mindfull of them in his mercy, they muſt be mindfull of him in their buſineſſe.</p>
+            <p>EVery important action requires a ſacrifice of prayer to bleſſe it: but much more that action which imports a whole Church or Common wealth.</p>
+            <p>OUr dayes are growne deſperate &amp; full of homicides, as if vio<g ref="char:EOLhyphen"/>lence would leave nothing to doe, the merciles ſouldier hath put on his armour, left off his charity and fights for money.</p>
+            <p>REligious and worthy Arts alwaies advance a worke inten<g ref="char:EOLhyphen"/>ded: it proſpers a warre, brings ſouldiers into a better com<g ref="char:EOLhyphen"/>mand, and a whole Army under good governement.</p>
+            <p>DOe enemies what they can, ſo Chriſt be our Captaine, our leader, and our friend, we neede not to feare.</p>
+            <p>EUery man forſake ſin and reſt upon Gods providence: for mans extremity is Gods opportunitie.</p>
+            <p>REward Babylon as ſhee hath deſerved, yea ſerve her as ſhee hath ſerved us: ſuppreſſe an Antichriſtian Prelacie, cut off thoſe which make warre againſt the people of God.</p>
+            <p>YF there be a dog in the manger, he ſhall not always lie there, though there be diviſions in Church and State, yet wee ſhall
+<pb n="3" facs="tcp:114020:4"/>at laſt be taught of God to be of one minde.</p>
+            <p>O How happy were we, if we could ſay, as <hi>Abraham</hi> to <hi>Lot,</hi> let there be no ſtrife between me and thee, but both joyne toge<g ref="char:EOLhyphen"/>ther againſt the Common enemy.</p>
+            <p>VEngeance in a great and an extraordinary meaſure, is ſure to fall on al thoſe that are Rebells &amp; perſecuters of Gods Elect.</p>
+            <p>REvenge for Religion-ſake upon ſuch Idolaters as have by craft and wiles ſought to deſtroy and corrupt the people of God, is warranted by his word.</p>
+            <p>PRinces in honour cannot make peace with any People, Na<g ref="char:EOLhyphen"/>tion, or Countrey, that have ſhed the blood of his innocent Subjects: but eſpecially not with his own in like Caſe.</p>
+            <p>IT's a good prediction, and a preſage of future happineſſe to a diſtracted Kingdome, when righteous men are brought in<g ref="char:EOLhyphen"/>to place of Judicature.</p>
+            <p>KIngdomes never flouriſh better then when Chriſts Goſpel hath a free paſſage in it.</p>
+            <p>EVery violence that oppoſeth it ſelfe againſt Gods truth, muſt be utterly ſuppreſt? for the glory and welfare of a Kingdom conſiſts in the maintenance of truth.</p>
+            <p>SUch as have no confidence in God, their hearts muſt needes faile them in undertakings of danger: but faith feares not though in the vally of the ſhaddow of death.</p>
+            <p>HAving Chriſt to bee ours, and our ſoules his, though the world were on a light fire, yet we ſhall not periſh.</p>
+            <p>OUr knowledge of Chriſt is the cauſe of our love, and if wee love him, we will fight againſt his enemies.</p>
+            <p>VIctory, joy, pleaſure and peace are comming to the people of God, but only with the comming of Chriſt.</p>
+            <p>LOve can extend the paſſions of the heart to the thing loved, and yet cannot apprehend Chriſt: hee muſt be apprehended before he be loved, &amp; that love will make us defend his cauſe.</p>
+            <p>DReadfull curſes fall commonly upon all thoſe that take part with the enemies of Chriſt fighting to maintaine the cauſe of Antichriſt, <hi>David</hi> ſaith none of their weapons ſhall proſper, <hi>Pſal.</hi> 54.17.</p>
+            <p>EVen the conſideration that our warre is ſurrounded with the prayers of all Gods people is incouragement enough for a man to goe on.</p>
+            <pb n="4" facs="tcp:114020:5"/>
+            <p> RIghteous men ſhall rejoyce when they ſhall ſee the vengeance that comes upon the wicked, and ſhall waſh their feete in their blood.</p>
+            <p>YF God give quietneſſe, who can make warre? when hee hides his face, who can behold him whether it bee done a<g ref="char:EOLhyphen"/>gainſt a nation or a man only.</p>
+            <p>OUr ſorrowes and ſickneſſe, our paines and perturbations, peſtilence, famine and warre, are the fruits of ſinne, and the manifeſtation of Gods diſpleaſure againſt ſinners.</p>
+            <p>VNgodly men may take councell together, but it ſhall bee brought to naught, yea though they make a confederacy, it ſhall be broken to peeces, for God will bee a Sanctuary and a rocke of defence to all his.</p>
+            <p>REprobates and ungodly men are Sathans Souldiers, and yet Gods pentioners and revolted to the enemy: <hi>Demas</hi> had been with <hi>Paul,</hi> profeſſed with <hi>Paul,</hi> laboured with <hi>Paul:</hi> and yet for this preſent world forſooke <hi>Paul.</hi>
+            </p>
+            <p>POlicie, ſuccours, or abundance doe but rather entangle and diſable our reſiſtance, but the wiſedome, comfort, and pow<g ref="char:EOLhyphen"/>erfulneſſe of the holy Spirit are the armes with which wee ſhall beat downe our enemies.</p>
+            <p>
+               <hi>IShmael, Moab,</hi> and the <hi>Haggarens, Gabell</hi> and <hi>Ammon, Ama<g ref="char:EOLhyphen"/>lecke</hi> and the <hi>Philiſtines,</hi> the men of <hi>Tyre</hi> and <hi>Aſhur,</hi> all had ſeverall gods: yet all theſe conſpire againſt the true God.</p>
+            <p>KEepe not backe thy ſword from deſtroying of Gods ene<g ref="char:EOLhyphen"/>mies, for God pronounceth a Curſe upon thoſe that doe his worke negligently.</p>
+            <p>
+               <hi>EHud, Joſhuah, David,</hi> and his Worthies, were all men of great knowledge, given to temperance, ſobriety, and chaſti<g ref="char:EOLhyphen"/>ty: theſe ought to be the vertues of Souldiers.</p>
+            <p>COwards are alwayes enemies to God and his Cauſe; to ſit ſtill in theſe times, is to be luke-warm profeſſors of baſe and ſordid ſpirits.</p>
+            <p>HEe that joynes himſelfe to a Rebell, no man can know him from a Rebell: ſuch ſurely were never of us, that have beene and are bloody againſt us.</p>
+            <p>A Reformation is the moſt of our enemies feare, and the true cauſe that the Devill and his Inſtruments do ſo beſtir them<g ref="char:EOLhyphen"/>ſelves at this time.</p>
+            <pb n="5" facs="tcp:114020:5"/>
+            <p> REvenge the blood of Gods Saints, and the many outrages com<g ref="char:EOLhyphen"/>mitted againſt his Servants; for the whole Church of God cals to come into the help of the Lord and his people againſt the mighty.</p>
+            <p>GOd teacheth us not to looke upon our Enemies as Countrey<g ref="char:EOLhyphen"/>men, and Kinſmen, but as his enemies, and ſiders with Anti<g ref="char:EOLhyphen"/>chriſt: therefore our eye muſt not pity them, nor our ſword ſpare them, <hi>Jer.</hi> 48.10.</p>
+            <p>EVery man ſtands upon his guard, eſpecially when our Enemies have drawne their ſwords upon us, to invade our perſon, and whatſoever elſe is deare unto us.</p>
+            <p>YOu may ſeeke peace and follow after it, yet when the beaſt makes warre againſt the Saints of God, you muſt then take up Armes, <hi>Rev.</hi> 19.19.</p>
+            <p>OUr Lives and Religion fought for with courage brings Chriſt to take our parts, who wil not faile to give us victory in the end.</p>
+            <p>VIolence requireth reſiſtance, yea it's lawfull alwaies to take up Armes when there is no ſafety without them, <hi>Paul</hi> makes it a fruit of faith to be valiant, <hi>Heb.</hi> 11.34.</p>
+            <p>REad the Hiſtorie of the Bible, for you ſhall finde that the Art Military is no where ſo wel to be learned as from that great and high Commander the Lords of Hoſts, <hi>Iſa.</hi> 10.24.26.</p>
+            <p>PRinces are happy when their Armies are like King <hi>Davids</hi> ſoul<g ref="char:EOLhyphen"/>diers, ſurely Kings of <hi>Davids</hi> heart will have no ſouldiers but ſuch as King <hi>Davids</hi> were, 1 <hi>Chro.</hi> 12.38.</p>
+            <p>IN Zebulon were fifty thouſand men expert in warre that could keepe their order in Rankes, beſides they were not double-hearted.</p>
+            <p>KIng <hi>David</hi> had a great company of ſouldiers at his backe, yet he ſlew <hi>Goliah</hi> alone, and had none to help him: ſo faith alone conquers.</p>
+            <p>EVery juſt and warranted war God is with, and in the end gi<g ref="char:EOLhyphen"/>veth victory: he helped the Rubenites, and other Tribes, and caſt downe their enemies, 1 <hi>Chron.</hi> 5.20</p>
+            <p>SOuldiers to bee religious, couragious, valiant and skilfull in military profeſſion is required of God himſelfe, <hi>Deut.</hi> 23.9.</p>
+            <p>HE that for ever ſuffered, that we might not ſuffer for ever, will not plead for thoſe above, that will not fight for him below.</p>
+            <pb n="6" facs="tcp:114020:6"/>
+            <p> OUr God will teach our hands to war, and our ſingers to fight, yea alſo cover our heads in the day of Barrell.</p>
+            <p>UNgodly men have their day wherein they may execute theirown pleaſure (as it were without controule) but Chriſt the Judge of all ſhall have his day.</p>
+            <p>DElinquents, Jeſuits, and Firebrands of miſchiefe are not able to abide the triall of Juſtice, and therefore paſt hope of recovery by any lawfull treaty.</p>
+            <p>EVery thing is that which it loves, ſo the wicked are the worlds, becauſe they affect the world.</p>
+            <p>REſpect nor protect a Newter, for they that are not with God, are againſt him: but he will deale with them accordingly. Curſe ye <hi>Meroſh, Judg.</hi> 5.23.</p>
+            <p>YF <hi>Samuel</hi> mourne, becauſe God hath caſt away <hi>Saul, Samuel</hi> muſt ceaſe mourning, becauſe God hath caſt away <hi>Saul</hi> by his juſt Judgement.</p>
+            <p>OUr beſt evidence of the maintenance of Chriſts Cauſe, is when his Enemies are deſtroyed, and his owne people refreſhed and comforted.</p>
+            <p>VErtuous men ſuch as <hi>Abraham, Joſuah</hi> and <hi>David,</hi> are alwaies victorious, and prevailent againſt Gods Enemies.</p>
+            <p>ROyall hearts ever diſdain to follow pleaſure (though ſomtimes lawfull) when they ſhould be in the field: this contempt was in <hi>
+                  <g ref="char:V">Ʋ</g>riah,</hi> 2 <hi>Sam.</hi> 11.11.</p>
+            <p>PRayer is alwaies a ſpeciall meanes to procure victory, Iſrael fought, but Moſes prayers made them prevaile.</p>
+            <p>IGnorant men are not fit for ſervice, for not a multitude, but art and exerciſe getteth victory: Iſraels ſouldiers were all expert men, <hi>Judg.</hi> 20.16.</p>
+            <p>KIngdome is riſen againſt Kingdome, and Nation againſt Nation, Gods Church is trodden underfoot, it muſt be ſo for a time, yet there is hope if we war aright.</p>
+            <p>EXalt thy ſelf O God, and deliver us from our Enemies: defend us from thoſe that riſe up againſt us, let thy glory bee above all the earth.</p>
+            <p>PIety makes men valiant, for God being reconciled to ſuch, death if it come, will be their advantage: <hi>Araham, David, Joſuah,</hi> and <hi>Joſiah</hi> were all valiant men.</p>
+            <pb n="7" facs="tcp:114020:6"/>
+            <p> ONely ſuch men as have bought experience at a high rate are fit to command, for advancement is the true reward of deſert.</p>
+            <p>REſt not too much upon meanes, though the beſt be to be uſed, for a horſe prepared for the Battell is a vaine thing: for ſafety (ſaith <hi>Solomon</hi>) is of the Lord, <hi>Prov.</hi> 21.31.</p>
+            <p>TRuſt in God, with prayers and ſupplications, asking councell of him, proſpereth an Army, and procureth victory, <hi>Judg.</hi> 20.18, 23, 26.</p>
+            <p>YOu may put confidence in God, for faith in Chriſt withſtands all encounters: yea it is he that mannages all juſt cauſes.</p>
+            <p>O Fooliſh Souldier, thouſands of thine Enemies ſtand about thee, rather be ſick then ſlothfull.</p>
+            <p>UNleſſe we defend Gods glory, when it's in queſtion, our tongues and hands are tied by the Devill, and not looſed by God.</p>
+            <p>RUn with patience unto the race that is ſet before thee, by death Chriſt came unto us, by death let us not grudge to go to him.</p>
+            <p>POlicie, wiſdome, and experience, is required in Commanders, and no leſſe dexterity and skill in common Souldiers: but a<g ref="char:EOLhyphen"/>bove all have a ſtrong faith.</p>
+            <p>IT was faith which ſteeled <hi>Moſes,</hi> and made him eſteem the re<g ref="char:EOLhyphen"/>proaches of Chriſt greater then the Treaſures of Aegypt. <hi>Heb.</hi> 11.14, 25, 26.</p>
+            <p>KNowledge of the experiences that Gods people have had in former Ages, and his love expreſt to his ſervants in theſe times is ſufficient to take away all faint-heartedneſſe.</p>
+            <p>EVery good man ſleepeth more ſecure in his Tent, then the ſinner in his Baricadoed Fortifications.</p>
+            <p>TRue faith brings the peace of God to our conſcienes, good re<g ref="char:EOLhyphen"/>port, victory over our Enemies, and bringeth us to all other bleſſings.</p>
+            <p>REcommend thy ſelfe to God by prayer, before thou goeſt to God: for no mans work can pleaſe God, unleſſe the perſon of the worker be firſt acceptable to him.</p>
+            <p>A Souldier to be indifferent in Gods Cauſe, is both dangerous and damnable, not to oppoſe them that oppoſe God, is to be Gods Enemy.</p>
+            <p>IF a man conſider ſeriouſly the evill of cowardice, and the ex<g ref="char:EOLhyphen"/>cellency of valour, it will make him abhorre the one, and be ambitions of the other.</p>
+            <pb n="8" facs="tcp:114020:7"/>
+            <p> LOve can extend the paſſions of the heart to the thing loved and yet cannot apprehend Chriſt, he muſt be apprehended be<g ref="char:EOLhyphen"/>fore he be loved, and that love will make us defend his Cauſe.</p>
+            <p>YF we did but love Chriſt as well as we ought to doe, or but ſo well as we ſay we doe, wee would take his part more boldly.</p>
+            <p>OUr knowledge of a propriety in God challengeth and earneſt affection.</p>
+            <p>UNleſſe our knowledge of Chriſt breed humiliation, we are vain-glorious, never ſeeking Chriſts honor, but our owne.</p>
+            <p>REjoyce in this honor, that ye know Chriſt: for it is a knowledge whoſoever ſeeketh is wiſe, whoſoever getteth is rich, whoſoe<g ref="char:EOLhyphen"/>ver keepeth is ſtrong, and whoſoever injoyeth is bleſſed for ever.</p>
+            <p>PRovident policy, though never ſo circumſpect, may be ſubject to errour, therefore not to be truſted in, much leſſe to be glo<g ref="char:EOLhyphen"/>ried in.</p>
+            <p>IN much reſt upon Confederates there is great danger, but eſ<g ref="char:EOLhyphen"/>pecially let not a <hi>Jehoſaphat</hi> helpe and <hi>Ahab,</hi> 2 <hi>Chron.</hi> 19.2 <hi>Chron.</hi> 25.6.</p>
+            <p>KIng <hi>Ezekiahs</hi> comfort was that God was with him to fight his battells, and <hi>Moſes</hi> ſaith, feare not but ſtand ſtill, &amp;c. 2 <hi>Chron.</hi> 31.8. <hi>Exod.</hi> 14.14.</p>
+            <p>EVery wicked man hath the feet of a wolfe, whatſoever he treads on ſhall never proſper: but a whole Army fares the better for a good <hi>Ezekiah.</hi>
+            </p>
+            <p>COwardly diſmayings which put men upon ſinfull ſhifts in trou<g ref="char:EOLhyphen"/>bleſome times, is odious both to God and man.</p>
+            <p>HE that dares not fight, nor performe his charge for feare, is to be puniſhed: God commands cowards to bee turned out of the Army.</p>
+            <p>EXpect not to proſper in any warre, unleſſe you hearken to Gods voice: Oh that my people would have heard my voice, then would I ſoon have deſtroyed their Enemies, <hi>Pſal.</hi>
+            </p>
+            <p>EVery man that carries any command, let him bee ſure to or<g ref="char:EOLhyphen"/>der himſelfe well, or elſe his command will ſoon grow into contempt.</p>
+            <p>CAll to minde what God hath done for Iſrael, hee is a Man of Warre, his right hand is become glorious, he hath daſhed his E<g ref="char:EOLhyphen"/>nemies in pieces, <hi>Exod.</hi> 15.</p>
+            <pb n="9" facs="tcp:114020:7"/>
+            <p> KNowledge in Commanders procures fear from Enemies, love from friends, and honor to themſelves, for <hi>Solomon</hi> ſaith, know<g ref="char:EOLhyphen"/>ledge is better then weapons of War.</p>
+            <p>YF you ſuffer Idolatry in an Army, you procure the greateſt of Gods Judgements upon you, and ſo become naked of his pro<g ref="char:EOLhyphen"/>tection: this overthrew <hi>Joaſh,</hi> 2 <hi>Chron.</hi> 25.7.</p>
+            <p>OVer-many words, pride, envy, and the fruits thereof tend to provoke the breach of peace, therefore, not to be ſuffered in an Army: hence aroſe the bloudy wars betweene <hi>Ephraim</hi> and <hi>Jephta, Judg.</hi> 12.9.</p>
+            <p>VSefull peace may ſomtimes be made with ſuch as may injure us when we go to war with others; leſt while we ſet upon one, we be invaded by another, 1 <hi>Sam.</hi> 7.14. <hi>Eſa.</hi> 37.19.</p>
+            <p>REad how <hi>Abraham</hi> the firſt Generall accepted of aid in warre, therefore let no man preſume upon his owne ſtrength, <hi>Gen.</hi> 14.14. 2 <hi>Sam.</hi> 10.6.</p>
+            <p>PUrſue thine Enemy with a full Army, Iſrael got nothing by ſen<g ref="char:EOLhyphen"/>ding a ſmall number againſt <hi>Ai,</hi> therefore uſe thy beſt ſtrength to obtain victory, <hi>Ioſ.</hi> 8.1.</p>
+            <p>JN the Tribe of <hi>Gad,</hi> there were men for ſtrength called Men of Might for courage, they had faces like Lyons, and for-foot<g ref="char:EOLhyphen"/>manſhip as ſwift as Roes, 1 <hi>Chron.</hi> 12.8.</p>
+            <p>KEep all promiſes made by thy ſelfe or by others by vertue of thy Warrant, for it is a true marke of piety; <hi>Joſuah</hi> was carefull of this to the deceitfull <hi>Gibeonites, Ioſ.</hi> 6.22.9.19.</p>
+            <p>EVery determination in an Enemy to fight muſt cauſe thee to fore-ſee and attend ſuch traps and ambuſhments, which may in execution ſuddenly come upon thee.</p>
+            <p>CAll to mind what God himſelfe wrought for the Iſraelites, when they were refreſhed, and the Enemy ſtrongly deceived by the ſun-ſhine upon the water, 2 <hi>King.</hi> 3.22, 23.</p>
+            <p>HE that overthrowes an enemy by craft, as plaine meaning <hi>Abi<g ref="char:EOLhyphen"/>jah</hi> was by <hi>Ieroboam,</hi> ſhall be ſerved as <hi>Ieroboam:</hi> God loves no machivilian policy, 2 <hi>Chron.</hi> 13.13, 14, 15, 16, 17.</p>
+            <p>ALl advantages may be uſed, or any ſtratagem for the overthrow of an Enemy, ſo it be not againſt breach of oath, godlineſſe, or the Law of nature and Nations.</p>
+            <pb n="10" facs="tcp:114020:8"/>
+            <p> REmember after the example of Chriſts parable to go forth to war With a full Army, for an enemy is rather heartned then hurt by ſmall numbers, <hi>Luk.</hi> 14.31.</p>
+            <p>
+               <hi>GIdeon</hi> ſent out ſpies into the Enemies camp, to hearken after the feare and terrour that is in an Enemy, is a great heartening to go forward, <hi>Iudg.</hi> 7.10, 11, 13.</p>
+            <p>EVill reports diſ-heartens an Army, and therefore not to be ſuf<g ref="char:EOLhyphen"/>fered; this God puniſhed in his owne people, <hi>Num.</hi> 14.27.</p>
+            <p>YOu may ſomtimes receive entertainment from the friends and ſubjects of an Enemy, diſ-joyning the hearts of ſuch as bee at one with him, may weaken this power and be a more eaſie way to get victory.</p>
+            <p>ONe victory gotten with a full Army fairly, is almoſt the winning of a whole Countrey, <hi>Caeſars</hi> victory at Alexandria drew al<g ref="char:EOLhyphen"/>moſt all France to him.</p>
+            <p>
+               <g ref="char:V">Ʋ</g>Se all expedition in war as <hi>Saul</hi> did upon <hi>Nabaſh,</hi> and <hi>Ioſuah</hi> upon the five Kings, 1 <hi>Sam.</hi> 11. <hi>Ioſ.</hi> 10.9.</p>
+            <p>REfuſe to fight after wearie travell, or with over much hunger and thirſt; for it may be thou meeteſt with a lively and a freſh Enemy.</p>
+            <p>PEace muſt be offered before you ſtrike, for God hateth unneceſ<g ref="char:EOLhyphen"/>ſary bloud-ſhed, and abhorreth men of violence, <hi>Deut.</hi> 20.10.2 <hi>Sam.</hi> 10.18, 19.</p>
+            <p>
+               <hi>JOſuah, Ehud, David</hi> and his Worthies went not forth to war, but in cauſes apparently juſt, be carefull then, and embrew not your hands in innocent blood.</p>
+            <p>KNowledge and the want of feare of God in our Armies, will keep us from proſpering in our deſignes.</p>
+            <p>EVery boaſting of our own ſtrength, wiſdom of Generalls, cou<g ref="char:EOLhyphen"/>rage of Captaines, and diſ-eſteem of Enemies, as <hi>Benhadad</hi> did of <hi>Ahabs</hi> Army, may endanger the overthrow of an Army.</p>
+            <p>SUch as hope to prevaile, put their whole ſtrength to the war, yet preſume not, for victory ſtandeth not in multitudes made of an hoſt, but ſtrength cometh from heaven, 1 <hi>King.</hi> 10.</p>
+            <p>HAve no confidence in ſuch as may juſtly bee ſuſpected, the Lords of the Philiſtims would not admit of <hi>David,</hi> and his Company to goe into battell with them againſt Iſrael.</p>
+            <pb n="11" facs="tcp:114020:8"/>
+            <p> OFtentimes good ſucceſſe followes good adviſe, without coun<g ref="char:EOLhyphen"/>ſell, ſaith <hi>Solomon,</hi> purpoſes are diſappointed, <hi>Prov.</hi> 15.</p>
+            <p>VEnture not to put all to hazard before thou haſt conſidered of thine owne numbers and ſtrength, the quality and condition of thy Souldiers, whether young or old, raw or experienced, and then of thine enemies.</p>
+            <p>LIttle errors may bring great dammages, ſo that the due actions, commendations of all former preparations, deliberations, and watie proceedings, is here retained or loſt.</p>
+            <p>DIligent fore-ſight, and excellent judgement before joyning of battell is required of all good Commanders; for there lies at ſtake the precious lives of men.</p>
+            <p>ENdeavour for all advantages of ground, wind, and ſun, the Syrians imputed much to the place, making great difference be<g ref="char:EOLhyphen"/>tween the hills and the valleyes, 1 <hi>King.</hi> 20.</p>
+            <p>REly not too much upon meanes, for faith hath confidence in God, yea all ſafety is from him: one <hi>Sampſon</hi> beats a thou<g ref="char:EOLhyphen"/>ſand, <hi>Iudg.</hi> 25.14, 15.</p>
+            <p>YF thou be forced to fight diſpaire not, though thy numbers be ſmall, and thine enemy proud; for in ſuch caſes God ſtrangely gives victory, 2 <hi>Chron.</hi> 14.</p>
+            <p>OUr experience hath taught us, that ſmall numbers of skilfull men, well exerciſed in Armes, will rout whole multitudes of others.</p>
+            <p>VErtuous and godly Orations with ſpeeches of encouragement have been formerly made to ſouldiers by great Commanders to take away feare.</p>
+            <p>REſiſt the Devill, and he will fly from you; he cannot enter, un<g ref="char:EOLhyphen"/>leſſe you open him the gate, and who would open to let in ſuch an enemy?</p>
+            <p>PReſerve and maintaine the true Proteſtant Religon, whereof under God, conſiſts the glorie of a Kingdom.</p>
+            <p>IF a man be valiant for the Lord, he ſhall have great reward here, and everlaſting glory hereafter.</p>
+            <p>KNowledge mixt with preſumption, may be overcome with diſtraction and ſubtilly end in an apoplexie, yea and beats out her owne brains.</p>
+            <pb n="12" facs="tcp:114020:9"/>
+            <p> EVery hypocrite being once unmaskt proves the moſt dangerouſ<g ref="char:EOLhyphen"/>eſt enemy, therefore let thy ſword make no difference between him and another.</p>
+            <p>COwardice and timerouſneſſe are qualities too baſe for eminen<g ref="char:EOLhyphen"/>cy, it is want of courage betrayes the truth, men being more carefull of their own quiet, then of Gods glory.</p>
+            <p>HE that hath his thoughts taken up with the conſideration of the dreadfulneſſe which is in God, hath a takin feare, ſuch fearfull ones God encourageth and comforteth.</p>
+            <p>
+               <hi>A</hi> Well ordered Army is a Schoole, wherein is taught preparation to death, continency, vigilancy, obedience, hardneſſe, tem<g ref="char:EOLhyphen"/>perance, humility, and devotion.</p>
+            <p>REgenerate men are but ſinners, voluntaries at moſt, but preſſed ſouldiers againſt their wills; the God of wiſdome will forgive them, when the wicked ſhall receive the reward of Rebels.</p>
+            <p>GOd will not be worſe to them that fight for him, then he is to them that forſake him: yet alas, how are mens conſciences in<g ref="char:EOLhyphen"/>groſt by the world?</p>
+            <p>EVery man encourageth one another to the end, by the recom<g ref="char:EOLhyphen"/>pence we ſhall finde in the end; for though God be good to us alwaies, yet he will be beſt at laſt.</p>
+            <p>THe good ſouldier ever praiſes God for a revenge of thoſe that plot or contrive any hurt againſt the people of God.</p>
+            <p>OUr beſt evidence of the maintenance of Chriſts Cauſe, is when his enemies are deſtroyed, and his own people refreſhed, and comforted.</p>
+            <p>THe way for ſouldiers to cure themſelves of all ſinfull feares is to get the feare of God ſetled in their hearts.</p>
+            <p>HE that goes by the meanes ſhall attaine to the end, and ſo ſhall obtaine a crowne of glorie: yea he that walks ſo ſhall not miſſe it.</p>
+            <p>ENcouragement againſt adverſaries of the truth is very neceſſa<g ref="char:EOLhyphen"/>ry, for Chriſtians are verie ready and ſubject to faint and fall.</p>
+            <p>FAith to reſt upon Gods Word and Promiſe, is ſufficient to ſink, and drowne all ſinfull and ſlaviſh fear.</p>
+            <p>RIghteous men, ſuch as <hi>Abraham, Joſua,</hi> and <hi>David,</hi> being all men of good conſciences, prevailed alwaies againſt Gods Enemies.</p>
+            <pb n="13" facs="tcp:114020:9"/>
+            <p> OUr deſire of gaine makes walke and venture through many frequent and mortall dangers, yea it is an old ſaying, Souldiers and Sea-men ſcarce feare God himſelfe.</p>
+            <p>NO man deſerves reward for his goodneſſe, but fears puniſhment for his ſinfulneſſe: therefore looke to thy obedience, and let God alone with thy recompence.</p>
+            <p>THat's but a deſperate policie that ſtudies to vex thoſe whom God hath bleſſed, yet the Lord ſo takes ſuch into his tuition, that he will devoure their enemies.</p>
+            <p>OUr God will execute vengeance on whom he will, and it is no wrong to us, that he ſaves any, the cauſe is in himſelfe: that he condemnes many, the cauſe is in themſelves.</p>
+            <p>REmember thou ſhalt die, not becauſe thou art wounded, or ſick, but becauſe thou art alive.</p>
+            <p>RAther turn the world out of thy ſelfe, then turne they ſelfe out of the world, for a wiſe man will be a hermit at home.</p>
+            <p>ENter into the Land of Canaan, for God hath caſt out the De<g ref="char:EOLhyphen"/>vills out of the Kingdome of heaven that Chriſts ſouldiers may dwell there.</p>
+            <p>AS God hath made even the fleſh of vipers to aſſiſt in cordialls, ſo he can raiſe ſtrength out of weakneſſe, and make war it ſelfe procure our everlaſting peace.</p>
+            <p>ROme hath made us eat the bread of Superſtition, and drink the wine of Fornication of many yeares, yet God hath now de<g ref="char:EOLhyphen"/>livered us from it: if we revolt from the integrity of his ſer<g ref="char:EOLhyphen"/>vice, our latter end will be worſe then our begining.</p>
+            <p>EVill-affected men towards the Doctrine of truth, are alwaies ſo blinded in minde, that they cannot abide the light of the truth.</p>
+            <p>OFfences, hatred, and extream cruelty commonly follow the Profeſſors of the truth, yet beware, beware of being led by thine own blind ignorance.</p>
+            <p>RIſing early and much watching are profitable to keep a man in health, and to encreaſe his wiſdom.</p>
+            <p>TIme is glorious to him that gloriouſly ſpends it, but that time is accurſed, that is wickedly ſpent, or paſſed over in ſluggiſh igno<g ref="char:EOLhyphen"/>rance without any profit.</p>
+            <p>OBedience is a vertue of an high nature, and in great eſtimati<g ref="char:EOLhyphen"/>on, but above all things rather obey God then man.</p>
+            <pb n="14" facs="tcp:114020:10"/>
+            <p> THat man is bleſſed that lives a holy life, nothing can make him poore, he graceth all conditions, honors and places.</p>
+            <p>HE that loves the world, and yet hopes for heaven, let him ceaſe that love, and know that if Chriſt makes us deny this world, he will give us a better.</p>
+            <p>EVery man is afflicted in this world, that he may be humbled; yea many ſores on thy fleſh, that fewer ſinnes may be on thy ſoule</p>
+            <p>REfraining of ſin brings Chriſt into Armies, but fruitful<g ref="char:EOLhyphen"/>neſſe in goodneſſe brings him into our hearts.</p>
+            <p>JN an Army none are ſo happily fed as thoſe who wait upon God for their daily bread, and are therewith ſatisfied; compe<g ref="char:EOLhyphen"/>tency is a good ſouldiers content.</p>
+            <p>GOod things are not weariſome in their continuall uſe, our dai<g ref="char:EOLhyphen"/>ly bread though daily received, is to be daily craved.</p>
+            <p>HE that with patience kiſſeth Gods ſtriking hand is happy, for there is no greater argument of patience then the acknow<g ref="char:EOLhyphen"/>ledgement of a divine hand in our ſuffering.</p>
+            <p>THe patience of God is greater then the wickedneſſe of man, yet let not ſinners preſume, the ſilent Judge will at laſt ſpeake home.</p>
+            <p>ORder and due execution of ſtrict Diſcipline, is the ſtrongeſt guard to keep an Army from diſtruction: if <hi>Moſes</hi> offend he muſt taſte of the great Generall, Gods diſpleaſure.</p>
+            <p>REconcile your conſciences and carefully keep at a diſtance from all ſin, and put thy whole confidence in God, reſt upon his pro<g ref="char:EOLhyphen"/>miſe, and fear not to prevaile.</p>
+            <p>LEarne of zealous <hi>Paul</hi> not to count your lives deare unto you, that thereby you may finiſh your lives with joy.</p>
+            <p>EVery diſtruſtfull ſuſpicion of our owne preſent condition makes us feare, leaſt God is now filling up his cup of wrath for us to drinke off, but remember <hi>Davids</hi> ſaying, in 42. <hi>Pſal.</hi> 11.</p>
+            <p>FEed not your fears nor fancies with ſuch thoughts as are apt to terrifie and affright you, <hi>Eſa.</hi> 33.18.</p>
+            <p>THe true cauſe why God may be ſlack in delivering of an Army from an approaching danger, may proceed from a neglect of praiſing him for deliverances paſt.</p>
+            <pb n="15" facs="tcp:114020:10"/>
+            <p> HHappy is the man that gets a reſolution to live, becauſe his time is not yet come to die, pitching his deſires upon the pleaſures which have neither bounds nor end.</p>
+            <p>AS thou knoweſt not when or where death will meet thee, ſo thou muſt remember that alwaies and in every place he ſeeketh for thee.</p>
+            <p>NEver had any man perfect reſt in this world, for it deceives all that put their truſt therein.</p>
+            <p>DIvers are the miſeries and ſorrowes of this life, and few the pleaſures, to make us more deſirous of heaven, where there is nothing but pleaſure.</p>
+            <p>OLd age may be good three waies, naturally, morally and ſpiritu<g ref="char:EOLhyphen"/>ally, the laſt is beſt, when a man can looke both waies, back<g ref="char:EOLhyphen"/>ward with comfort to his life paſt, forward with joy to his re<g ref="char:EOLhyphen"/>ward to come.</p>
+            <p>REſolve that nothing ſhall hurt thee, for ſinne is the ſting of all troubles; plucke out the ſting and devide all the malice of the Serpent.</p>
+            <p>DIrect an awfull eye towards thy laſt account, and it will by ma<g ref="char:EOLhyphen"/>ny degrees be more carefull of the manner then the matter of actions both how and what thou doeſt.</p>
+            <p>EVerlaſtingly to be exiled from Gods, in whom is life, muſt needs be an everlaſting death; if Gods preſence be fulneſſe of joy, the fulneſſe of ſorrow muſt needs be in his abſence.</p>
+            <p>REmember our head is in heaven, what makes our hearts upon earth? it is fit the head and heart ſhould go together.</p>
+            <p>YF this temporall life which we know be ſo precious, and that time muſt determine it, how precious is that which is equall with eternitie?</p>
+            <p>OLd in knowledge and obedience is bleſſed, the hoarie head is a crowne of glory, if it be found in the way of righteouſneſſe.</p>
+            <p>VErtue adds to a regenerate man a new ſplendor, which toge<g ref="char:EOLhyphen"/>ther with the honor of his houſe challengeth reſpect from all.</p>
+            <p>RUine and deſtruction are in the paths of the wicked, and the way of peace they ſhall never know, that contemne and oppoſe the Goſpell of Chriſt.</p>
+            <p>PRay ſtill and God will anſwer, and what is wanting in our en<g ref="char:EOLhyphen"/>deavours God will make up of his ſufficient mercies.</p>
+            <pb n="16" facs="tcp:114020:11"/>
+            <p> JN death and duſt, who can ſay this is the Skull of a King? that of a Captaine? this of a Polititian? that of a Foole? this of an Officer? that of a Souldier?</p>
+            <p>KNowledge never reſts till his faith be built on aſſurance that God hath pardoned his ſin, and given him a place in heaven.</p>
+            <p>EVery man whoſe eternall election and preſent juſtification is ſuch, that he can call God father, his Saviour brother, and the Holy Ghoſt his Comforter, the terrors of death amaze him not; for he knowes whom he hath truſted, and whether death ſhall lead him.</p>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+   </text>
+</TEI>
